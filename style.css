@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding-bottom: 15px;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 0;
+    padding: 10px;
+    background-color: #94B49F;
+    color: white;
+    text-align: left;
+}
+
+.navbar {
+    top: 0;
+    position: sticky;
+    background: #CEE5D0;
+}
+
+.table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table th {
+    padding: 5px;
+    background-color: rgb(209, 209, 209);
+}
+
+.table td {
+    padding: 5px;
+}
+
+.titulo {
+    margin: 0 auto;
+    line-height: auto;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carta-flor {
+    padding: 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 9px rgb(209, 209, 209);
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.detalle-flor {
+    padding: 15px;
+    background-color: white;
+}
+
+.btn-nav {
+    line-height: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px;
+    background: #CEE5D0;
+    padding: 0px 5px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.detalle-flor img {
+    max-width: 30%;
+}
+
+.form textarea {
+    text-align: left;
+    max-width: 10.5rem;
+    min-width: 10.5rem;
+    min-height: 10rem;
+    max-height: 10rem;
+}
+
+.cbox {
+    width: 10.5rem;
+    height: 1.5rem;
+}
+
+.no-decoration a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-nav:hover {
+    text-decoration: underline;
+}
+
+.flower-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 8px rgb(220, 220, 220);
+}
+
+.flower-card a:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .carta-flor {
+        width: 45%;
+    }
+}
+
+@media (max-width: 700px) {
+    .carta-flor {
+        width: 100%;
+    }
+}

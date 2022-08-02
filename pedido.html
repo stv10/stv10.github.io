@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <title>Pedido</title>
+  </head>
+  <body>
+    <nav class="navbar flex center">
+      <div class="btn-nav no-decoration">
+        <a href="pedido.html"><p>Pedir</p></a>
+      </div>
+      <div class="btn-nav no-decoration">
+        <a href="index.html"><p>Home</p></a>
+      </div>
+      <div class="btn-nav no-decoration">
+        <a href="tus_pedidos.html"><p>Tus Pedidos</p></a>
+      </div>
+    </nav>
+    <div class="titulo">
+      <h2>Pedido</h2>
+    </div>
+    <div>
+      <form action="" method="get" class="form center">
+        <p>
+          Nombres <br />
+          <input type="text" name="tbNombre" />
+        </p>
+        <p>
+          Apellido <br />
+          <input type="text" name="tbApellido" />
+        </p>
+        <p>
+          Flores <br />
+          <select name="menu" id="cboxFlor" class="cbox">
+            <option value="Margaritas">Margaritas</option>
+            <option value="Magnolias">Magnolias</option>
+            <option value="Lavanda">Lavanda</option>
+            <option value="Rosas">Rosas</option>
+            <option value="Girasoles">Girasoles</option>
+          </select>
+        </p>
+        <p>
+            Descripcion <br>
+            <textarea name="" id="" cols="30" rows="10">Agregue una descripcion...
+            </textarea>
+        </p>
+        <p>
+          <input type="submit">
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
